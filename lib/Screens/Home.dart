@@ -1,6 +1,7 @@
 import 'package:morning_dew/Units/Post_style.dart';
 import 'package:morning_dew/Units/account_tittle_style.dart';
 import 'package:morning_dew/Units/category_style.dart';
+import 'package:morning_dew/Units/custom_post_style.dart';
 import 'package:morning_dew/Units/header_style_bookmark.dart';
 import 'package:morning_dew/Units/home_title_style.dart';
 import 'package:morning_dew/Units/taskbar_style.dart';
@@ -32,7 +33,7 @@ class homescreen_state extends State{
          
             account_title_style(),
           
-            Expanded(child: post_style()),
+            Expanded(child: custom_post_style_account()),
            
             taskbar_style(1)
            
