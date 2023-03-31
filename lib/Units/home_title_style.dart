@@ -23,18 +23,18 @@ class home_title_style extends StatelessWidget{
                     )),
                     Row(
                       children: [
-                        InkWell(
-                          onTap: () {
-                             Navigator.push(context,MaterialPageRoute(builder: (context) => likesscreen()),);
-                          },
-                          child: Container(
-                            margin: EdgeInsets.only(right: 10),
-                            child: Icon(Icons.favorite_border,
-                            color: Color.fromARGB(255, 255, 255, 255),
-                            size: 26,
-                            ),
-                          ),
-                        ),
+                        // InkWell(
+                        //   onTap: () {
+                        //      Navigator.push(context,MaterialPageRoute(builder: (context) => likesscreen()),);
+                        //   },
+                        //   child: Container(
+                        //     margin: EdgeInsets.only(right: 10),
+                        //     child: Icon(Icons.favorite_border,
+                        //     color: Color.fromARGB(255, 255, 255, 255),
+                        //     size: 26,
+                        //     ),
+                        //   ),
+                        // ),
                         InkWell(
                           onTap: () {
                             Navigator.push(context,MaterialPageRoute(builder: (context) => add_typescreen()),);
