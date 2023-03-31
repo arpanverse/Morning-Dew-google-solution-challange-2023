@@ -1,6 +1,6 @@
 # morning_dew
 
-A new Flutter project.
+A new Flutter project, for solution challenge 2023.
 
 ## Getting Started
 
