@@ -52,16 +52,16 @@ class taskbar_style extends StatelessWidget{
                       size: 27,)),
 
 
-                     InkWell(
-                      onTap: () {
-                        Navigator.push(context,MaterialPageRoute(builder: (context) => bookmarksscreen()),);                       
-                      },  
-                      child: (page==3)?
-                      Icon(Icons.bookmark,
-                      color: Color.fromARGB(255, 66, 133, 244),
-                      size: 27,):Icon(Icons.bookmark_outline,
-                      color: Colors.white,
-                      size: 27,)),
+                    //  InkWell(
+                    //   onTap: () {
+                    //     Navigator.push(context,MaterialPageRoute(builder: (context) => bookmarksscreen()),);                       
+                    //   },  
+                    //   child: (page==3)?
+                    //   Icon(Icons.bookmark,
+                    //   color: Color.fromARGB(255, 66, 133, 244),
+                    //   size: 27,):Icon(Icons.bookmark_outline,
+                    //   color: Colors.white,
+                    //   size: 27,)),
 
                       InkWell(
                       onTap: () {
